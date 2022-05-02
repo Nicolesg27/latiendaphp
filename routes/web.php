@@ -49,7 +49,7 @@ Route::get('arreglo', function(){
 Route::get('paises', function(){ 
     $paises = [
         "Colombia" => [
-            "capital" => "Bogota",
+            "capital" => "Bogotá",
             "moneda" => "Peso",
             "poblacion" => 51.6,
             "ciudades" =>[
@@ -64,7 +64,7 @@ Route::get('paises', function(){
             "poblacion" => 45.3,
             "ciudades" =>[
                 "Rosario",
-                "Cordoba"
+                "Córdoba"
             ]
         ],
         "Puerto Rico"=> [
@@ -75,7 +75,7 @@ Route::get('paises', function(){
                 "Ponce",
             ]
         ],
-        "Peru"=> [
+        "Perú"=> [
             "capital" => "Lima",
             "moneda" => "Sol",
             "poblacion" => 32.9,
@@ -90,8 +90,8 @@ Route::get('paises', function(){
             "poblacion" => 212.6,
             "ciudades" =>[
                 "Rio de Janeiro",
-                "Sao Paulo",
-                "Manos"
+                "São Paulo",
+                "Manaos"
             ]
         ]
     ];
