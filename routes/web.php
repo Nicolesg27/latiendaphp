@@ -69,7 +69,7 @@ Route::get('paises', function(){
         ],
         "Puerto Rico"=> [
             "capital" => "San Juan",
-            "moneda" => "Dolar",
+            "moneda" => "Dólar",
             "poblacion" => 3.1,
             "ciudades" =>[
                 "Ponce",
@@ -98,4 +98,10 @@ Route::get('paises', function(){
     
     //mostrar vista de paises
     return view("paises")->with("paises" , $paises );
+});
+
+
+//Tienda 
+Route::get('prueba', function(){
+    return view('productos.create');
 });

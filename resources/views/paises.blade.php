@@ -15,7 +15,7 @@
                 <th class="text-warning"> País </th>
                 <th class="text-primary"> Capital </th>
                 <th class="text-danger"> Moneda </th>
-                <th class="text-success"> Poblacion </th>
+                <th class="text-success"> Población </th>
                 <th class="text-info"> Ciudades </th>
             </tr>
         </thead>
